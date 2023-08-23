@@ -5,9 +5,8 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# Function to send an email notification
 def send_email(new_ip):
-    sender_email = os.getenv("gevorgyanamin@gmail.com")  # Use environment variables for sensitive data
+    sender_email = os.getenv("gevorgyanamin@gmail.com")
     sender_password = os.getenv("kbkxjfgxltjymdje")
     recipient_email = os.getenv("gevorgyanamin@gmail.com")
 
